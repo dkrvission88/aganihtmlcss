@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Management</title>
+        <link rel="stylesheet" href="aaaa.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0" />
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>Dashee</h1>
+                <div class="user-info">
+                    <img src="./image/akaka.jpg" alt="User Avatar">
+                    <span>Agneehotri Mam</span>
+                </div>
+            </header>
+            <div class="content">
+                <div class="ddd">
+                    <div>
+                        <span class="mag1">User Management</span><br />
+                        <span class="mag2">Home &gt; Permissions & Accounts &gt; User Management</span>
+                    </div>
+                    <nav>
+                        <input type="text" placeholder="Search User"><i class="fa-solid fa-magnifying-glass"></i>
+                        <button class="add-user">Add User</button>
+                    </nav>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+
+                            <th>
+                                <div class="indata"><input type="checkbox"> Name</div>
+                            </th>
+                            <th>User Role</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: whitesmoke; font-size: 12px; color: gray;">
+                            <td colspan="3">Showing 7 of 56 Users</td>
+                        </tr>
+                        <tr>
+                            <!-- <td><input type="checkbox"></td> -->
+                            <td>
+                                <div class="indata1">
+                                    <input type="checkbox">
+                                    <div class="mmd">
+                                        <img src="./image/akaka.jpg" alt="User Avatar" class="avatar">
+                                        <div class="done00">
+                                            <div class="done1">
+                                                <span>Yonay Rosales</span><br>
+                                                <span class="email">name@email.com</span>
+                                            </div>
+                                            <span class="yell0">Not Logged In</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <span class="badge manager">Manager</span>
+                                <span class="badge admin">Admin</span>
+                                <span class="badge auditor">Auditor</span>
+                            </td>
+                            <td>
+                                <button class="modify-roles"><i class="fa-solid fa-user-pen"></i>Modify Roles</button>
+                                <button class="remove-user"><i class="fas fa-user-times"></i> Remove User</button>
+                            </td>
+                        </tr>
+                        <!-- Repeat for other users -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/c6313c8041.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
